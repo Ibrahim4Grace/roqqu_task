@@ -1,6 +1,6 @@
 import pino from 'pino';
 import dayjs from 'dayjs';
-const isDevelopment = process.env.NODE_ENV === 'development';
+const isDevelopment = process.env.NODE_ENV === 'production';
 
 export const log = pino({
   transport: isDevelopment
