@@ -6,7 +6,6 @@ import { errorHandler, routeNotFound } from './middlewares';
 import { corsOptions, specs } from './configs';
 import { router } from './routes';
 import { AppDataSource } from './data-source';
-import { log } from './utils';
 
 dotenv.config();
 
@@ -43,7 +42,7 @@ class App {
     const port = process.env.PORT || 3000;
     await AppDataSource.initialize();
 
-    this.app.listen(port, () => log.info(`App listening on port ${port}!`));
+    this.app.listen(port, () => console.info(`App listening on port ${port}!`));
   }
 }
 
