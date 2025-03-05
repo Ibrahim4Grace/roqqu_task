@@ -7,7 +7,6 @@ dist/
 temp/
 .env
 src/ormconfig.ts
-src/migrations
 yarn.lock
 build
 issueformat.md
