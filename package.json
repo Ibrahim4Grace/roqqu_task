@@ -35,7 +35,6 @@
     "otp-generator": "^4.0.1",
     "pg": "^8.13.1",
     "pino": "^9.6.0",
-    "pino-pretty": "^13.0.0",
     "reflect-metadata": "^0.2.2",
     "swagger-jsdoc": "^6.2.8",
     "swagger-ui-express": "^5.0.1",

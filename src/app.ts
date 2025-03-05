@@ -30,7 +30,7 @@ class App {
   private configureRoutes(): void {
     this.app.use('/api/v1', router);
     this.app.get('/', (req: Request, res: Response) => {
-      res.send('Ts Typeorm Authentication');
+      res.send('roqqu Typeorm task');
     });
   }
 
