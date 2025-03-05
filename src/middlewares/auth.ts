@@ -1,7 +1,7 @@
 import { NextFunction, Request, Response } from 'express';
 import { AppDataSource } from '../data-source';
 import { User } from '../entities';
-import { log, TokenService } from '../utils';
+import { TokenService } from '../utils';
 import {
   asyncHandler,
   ResourceNotFound,
@@ -49,7 +49,7 @@ export const authentication = async (
     };
     next();
   } catch (error) {
-    log.error(error);
+    console.error(error);
     throw new ServerError('INTERNAL_SERVER_ERROR');
   }
 };
