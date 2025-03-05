@@ -18,6 +18,7 @@ if (isProduction) {
     database: url.pathname.substring(1),
     synchronize: false,
     logging: false,
+    ssl: { rejectUnauthorized: false },
     entities: ['src/entities/**/*.ts'],
     migrations: ['src/migrations/**/*.ts'],
   };
