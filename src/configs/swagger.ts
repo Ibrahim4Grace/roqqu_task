@@ -24,7 +24,7 @@ const swaggerOptions: swaggerJsdoc.Options = {
         description: 'Local server',
       },
       {
-        url: 'https://Roqqu.vercel.app/',
+        url: 'https://roqqu-task.vercel.app/',
         description: 'Live server',
       },
     ],
